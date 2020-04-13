@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/bootstrap/bootstrap-4.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body class="text-center">
+    <div class="container col-6">
+    <form class="form-signin">
+	<div class="form-group">
+	    <h1 class="h3 mb-3">Image Bookmarker</h1>
+	    <label class="sr-only" for="url">Bookmarks</label>
+	    <input class="form-control" type="text" id="url" placeholder="Image Link...">
+	</div>
+	<div class="form-group">
+	    <button id="addButton" class="btn btn-primary form-control" type="submit">Add</button>
+	</div>
+    </form>
+    <div id="boxes" class="card-deck mb-3 text-center"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
